@@ -1,0 +1,78 @@
+body{
+    background: #151515;
+}
+
+.main-container{
+    margin: 5%;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.875em;
+    padding: 0 0 .9375em
+}
+
+#brag{
+    margin-top: 20px;
+}
+
+.center-block{
+    
+}
+
+.stack-overflow{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.stack-overflow img{
+    height: 50px;
+    width: 50px;
+}
+
+.profile-image {
+    margin: auto;
+    width: 50%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #fff;
+  }
+  
+  .profile-image img {
+    width:auto;
+    height: 100%;
+    margin-left: -20px;
+  }
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 22px;
+        line-height: 48px
+    }
+    .main-content {
+        width: 80%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 26px;
+        line-height: 48px
+    }
+}
+
+@media only screen and (min-width: 1824px) {
+    body {
+        font-size: 32px;
+        line-height: 60px
+    }
+}
